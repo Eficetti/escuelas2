@@ -1,0 +1,8 @@
+class: Periodo
+table: periodos
+fields:
+  fechaInicio: DateTime
+  fechaFin: DateTime
+  ultimaModificacion: DateTime
+  fechaCreacion: DateTime
+  fechaEliminacion: DateTime?

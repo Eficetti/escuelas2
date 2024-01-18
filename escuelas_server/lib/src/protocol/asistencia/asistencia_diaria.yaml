@@ -1,0 +1,11 @@
+class: AsistenciaDiaria
+table: asistencias_diarias
+fields:
+  estudiante: Usuario?, relation
+  comision: ComisionDeCurso?, relation
+  estadoDeAsistencia: EstadoDeAsistencia
+  fecha: DateTime
+  idJustificacion: int?, relation(parent=justificaciones_de_asistencia)
+  ultimaModificacion: DateTime?
+  fechaCreacion: DateTime?
+  fechaEliminacion: DateTime?

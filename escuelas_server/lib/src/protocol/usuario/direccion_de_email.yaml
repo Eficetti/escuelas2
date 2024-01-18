@@ -1,0 +1,7 @@
+class: DireccionDeEmail
+table: direcciones_de_email
+fields:
+  direccionDeEmail: String
+  ultimaModificacion: DateTime, scope=serverOnly
+  fechaCreacion: DateTime, scope=serverOnly
+  fechaEliminacion: DateTime?, scope=serverOnly

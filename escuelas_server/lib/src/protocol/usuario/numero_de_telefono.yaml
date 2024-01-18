@@ -1,0 +1,8 @@
+class: NumeroDeTelefono
+table: numeros_de_telefono
+fields:
+  numeroDeTelefono: String
+  tipoDeTelefono: TipoDeTelefono
+  ultimaModificacion: DateTime, scope=serverOnly
+  fechaCreacion: DateTime, scope=serverOnly
+  fechaEliminacion: DateTime?, scope=serverOnly

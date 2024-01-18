@@ -1,0 +1,59 @@
+asignatura:
+  - obtenerAsignaturaPorId:
+  - obtenerAsignaturas:
+  - crearAsignatura:
+  - actualizarAsignatura:
+  - eliminarAsignatura:
+  - asignarUsuarioAAsignaturas:
+asistencia:
+  - crearAsistenciasEnLote:
+  - traerAsistenciaPorDia:
+  - actualizarAsistenciasEnLote:
+calificacion:
+  - crearCalificacionesEnBloque:
+  - crearConceptoDeCalificacion:
+  - obtenerCalificaciones:
+  - obtenerConceptosDeCalificacion:
+  - obtenerInformacionDeVistaGeneralDeComisiones:
+comision:
+  - asignarUsuarioAComision:
+  - obtenerComisiones:
+curso:
+  - obtenerCursoPorId:
+  - obtenerCursos:
+  - crearCurso:
+  - actualizarCurso:
+  - eliminarCurso:
+example:
+  - hello:
+rol:
+  - obtenerRolPorId:
+  - obtenerRoles:
+  - crearRol:
+  - actualizarRol:
+  - eliminarRol:
+solicitud:
+  - crearSolicitud:
+  - actualizarSolicitud:
+  - obtenerSolicitudes:
+  - obtenerSolicitud:
+  - obtenerSolicitudesPorIdUsuario:
+  - eliminarSolicitud:
+solicitudNotaMensual:
+  - crearSolicitudNotaMensual:
+  - actualizarSolicitudNotaMensual:
+  - obtenerSolicitudNotaMensual:
+  - obtenerSolicitudesNotaMensual:
+  - eliminarSolicitudNotaMensual:
+usuario:
+  - obtenerDatosDelUsuario:
+  - obtenerUsuario:
+  - obtenerDatosDeSolicitudDelUsuario:
+  - obtenerUsuarioPendiente:
+  - obtenerUsuarioPendientePorId:
+  - obtenerUsuariosPendientes:
+  - enviarSolicitudRegistroDocente:
+  - enviarSolicitudRegistroAlumno:
+  - responderSolicitudDeRegistro:
+  - obtenerListaDeEstudiantesDeComision:
+  - obtenerUsuariosPorRolSorteados:

@@ -1,0 +1,76 @@
+name: escuelas_flutter
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  # Navegaciones
+  auto_route: ^7.8.4
+  bloc: ^8.1.2
+  escuelas_client:
+    path: ../escuelas_client
+  escuelas_commons:
+    path: ../escuelas_commons
+  intl: ^0.18.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_localizations:
+    sdk: flutter
+  # Entornos de desarrollo
+  flutter_dotenv: ^5.1.0
+  # Tamaños de las paginas
+  full_responsive:
+    path: ./full_responsive
+
+  #server pod
+  serverpod_flutter: 1.2.0
+  serverpod_auth_email_flutter: 1.2.0
+  serverpod_auth_shared_flutter: 1.2.0
+  serverpod_auth_google_flutter: 1.2.0
+  flutter_inset_box_shadow: ^1.0.8
+  hydrated_bloc: ^9.1.3
+  path_provider: ^2.1.1
+
+  meta: ^1.9.1
+  collection: ^1.17.2
+  serverpod_auth_client: 1.2.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  # Navegaciones
+  auto_route_generator: ^7.3.2
+  # archivos auto generados
+  build_runner: ^2.4.6
+
+  bloc_test: ^9.1.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - stg.env
+    - dev.env
+    - prod.env
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+
+full_responsive:
+  resolutions:
+    - name: "celular"
+      width: 390
+      height: 844
+    - name: "escritorio"
+      width: 1280
+      height: 832

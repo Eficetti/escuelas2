@@ -1,0 +1,498 @@
+{
+    "@@locale": "en",
+
+    "pageRoleAssigmentPersonalInformation": "Personal information",
+    "@pageRoleAssigmentPersonalInformation": {
+        "description": "Message used to represent the personal information section in role assignment."
+    },
+
+    "pageRoleAssigmentDialogFirstText": "Are you sure you want\n to confirm ",
+    "@pageRoleAssigmentDialogFirstText": {
+        "description": "Initial text of a dialog box to confirm role assignment"
+    },
+
+    "pageRoleAssigmentDialogSecondText": "\n as a ",
+    "@pageRoleAssigmentDialogSecondText": {
+        "description": "Secondary text of a dialog box to confirm role assignment."
+    },
+
+    "pageRoleAssigmentPendingUsers": "Pending Users",
+    "@pageRoleAssigmentPendingUsers": {
+        "description": "This message is used for the title of a page or section that deals with pending user role assignments."
+    },
+
+    "pageRoleAssigmentNoPendingUsers": "There are no pending users",
+    "@pageRoleAssigmentNoPendingUsers": {
+        "description": "This message is used when the institution doesnt have pending users."
+    },
+
+    "pageKycFormConfirmationDialogText": "Are you sure you want to apply for the {roleName} role?",
+    "@pageKycFormConfirmationDialogText": {
+        "description": "Confirmation dialog text asking the user to confirm applying for a specific role.",
+        "placeholders": {
+          "roleName": {
+            "type" : "String"
+          }
+        }
+    },
+    
+    "pageKycSuccessDialogDescription": "Successful registration",
+    "@pageKycSuccessDialogDescription": {
+        "description": "Description of the alert dialog of success after the KYC"
+    },
+
+    "pageKycFormAddSubject": "Add subject",
+    "@pageKycFormAddSubject": {
+        "description": "Button label to add a subject in the KYC (Know Your Customer) process."
+    },
+
+    "pageKycFormDeleteSubject": "Delete subject",
+    "@pageKycFormDeleteSubject": {
+        "description": "Button label to delete a subject in the KYC (Know Your Customer) process."
+    },
+
+    "pageKycFormWhatGradeAreYouIn": "What grade are you in?",
+    "@pageKycFormWhatGradeAreYouIn": {
+        "description": "Prompt/question asking the user to specify the grade they are currently in, typically part of a KYC (Know Your Customer) or user profile setup process."
+    },
+
+    "pageKycFormWhichSubjectIsIt": "Which subject is it?",
+    "@pageKycFormWhichSubjectIs": {
+        "description": "Prompt/question asking the user to specify which subject they are adding in the KYC process."
+    },
+
+    "pageKycFormWhatYearIsYourSubject": "What year is your subject?",
+    "@pageKycFormWhatYearIsYourSubject": {
+        "description": "Prompt/question asking the user to specify the year of the subject in the KYC process."
+    },
+
+    "pageKycFormTitle": "{roleName} form",
+    "@pageKycFormTitle": {
+        "description": "Title for the KYC form page with a placeholder for the role name.",
+        "placeholders": {
+          "roleName": {
+            "type" : "String"
+          }
+        }
+    },
+
+    "pageKycFormDescription": "Answer these questions about yourself. We need this information in order to identify you in your request.",
+    "@pageKycFormDescription": {
+        "description": "Description guiding the user to answer questions for identity verification in the KYC process."
+    },
+
+    "pageKycFormChooseSubject": "Choose your subject",
+    "@pageKycFormChooseSubject": {
+        "description": "Question asking the user to choose the subject in the formfield."
+    },
+    
+    "pageKycFormChooseComission": "Choose your comission",
+    "@pageKycFormChooseComission": {
+        "description": "Question asking the user to choose the comission in the formfield."
+    },
+
+    "pageKycRoleSelectionTitle": "Role selection",
+    "@pageKycRoleSelectionTitle": {
+        "description": "Title for the page where users select their roles."
+    },
+
+    "pageKycFormNoSelectedComission": "Add your assigned commission\nto continue",
+    "@pageKycFormNoSelectedComission": {
+        "description": "Message displayed when a user needs to add their assigned commission to proceed in the KYC form."
+    },
+
+    "pageKycFormNoSelectedSubject": "Add the subjects that\nhave been assigned\n to continue",
+    "@pageKycFormNoSelectedSubject": {
+        "description": "Message displayed when a user needs to add the subjects that have been assigned to them to proceed in the KYC form."
+    },
+
+    "pageRoleConfirmationText": "You will register with the {roleName} role. All roles must be approved by the administrator. Once approved you will be able to use the app.",
+    "@pageRoleConfirmationText": {
+        "description": "Text displayed to confirm the selected role during the registration process.",
+        "placeholders" :{
+            "roleName" : {
+                "type": "String"
+            }
+        }
+    },
+
+    "pageKycRoleSelectionWelcome": "Hello {firstnameAndLastName}, tell us what your role is!",
+    "@pageKycRoleSelectionWelcome": {
+        "description": "Welcome message prompting the user to specify their role.",
+        "placeholders" :{
+            "firstnameAndLastName" : {
+                "type": "String"
+            }
+        }
+    },
+
+    "pageKycDropdownTitle": "Select an option",
+    "@pageKycDropdownTitle": {
+        "description": "Dropdown title for selecting an option in the KYC (Know Your Customer) page."
+    },
+
+    "pageKycErrorOptionAlreadySelected": "This option has already been selected",
+    "@pageKycErrorOptionAlreadySelected": {
+        "description": "error message displayed when a user attempts to select an option that has already been chosen in the KYC form."
+    },
+ 
+    "pageHomeTitleAppBar":"Home",
+    "@pageHomeTitleAppBar":{
+        "description":"Title of the home page"
+    },
+     "loginPageTitleAppBar": "Login",
+    "@loginPageTitleAppBar": {
+        "description": "Title of the login page"
+    },
+
+    "pageLoginCredentialsIndicativeText": "Enter your login credentials previously\nprovided by the school or director",
+    "@pageLoginCredentialsIndicativeText": {
+        "description": "Text to indicate that you must enter your credentials"
+    },
+
+    "pageLoginLoginWithGoogle": "Log in with Google",
+    "@pageLoginLoginWithGoogle": {
+        "description": "Text to indicate the log in with google system"
+    },
+
+    "pageLoginTextAllRightsReserved": "Developed by © Nidus Development - Argentina\nAll rights reserved",
+    "@pageLoginTextAllRightsReserved": {
+        "description": "text to indicate the origin of development"
+    },
+    
+    "pageLoginTextOr": "Or",
+    "@pageLoginTextOr": {
+        "description": "text to indicate the the options of login"
+    },
+
+    "pageLoginDialogAnErrorOccurred":"An error occurred while registering.",
+    "@pageLoginDialogAnErrorOccurred":{
+        "description": "Text in the dialog to indicate that an error ocurred" 
+    },
+
+
+    "pageGradesNoGrades": "They are no grades",
+    "@pageGradesNoGrades": {
+        "description": "Text to be displayed if there are no grades"
+    },
+
+
+
+    "commonError" : "Error!",
+    "@commonError": {
+        "description":"text in alertdialog title, Error"
+    },
+
+    "pageAwaitApprovalDescription": "Your account and role are pending for approval by the administrators.\n We will inform you via email.",
+    "@pageAwaitApprovalDescription": {
+        "description": "Text of the page Await Approval where it informs the user that his role and account are pending for approval and will contact him with a mail."
+    },
+
+    "pageAttendanceWithoutCourses": "There are no courses",
+    "@pageAttendanceWithoutCourses": {
+        "description": "Text to be displayed if there are no courses"
+    },
+
+    "pageAttendanceTitleFinishButtonToEndAttendance": "Finish",
+    "@pageAttendanceTitleFinishButtonToEndAttendance": {
+        "description": "Text to be displayed in the button to end the Attendance"
+    },
+
+    "pageAttendanceTitleDefinedMissingAmountComplete": "Defined {missing}/{all}",
+    "@pageAttendanceTitleDefinedMissingAmountComplete": {
+        "description": "Text to be displayed in the button to end the Attendance",
+        "placeholders" :{
+            "missing" : {
+                "type": "int"
+            },
+            "all" : {
+                "type": "int"
+            }
+        }  
+    },
+
+    "pageAttendanceNotAbsentStudents": "There are no students",
+    "@pageAttendanceNotAbsentStudents": {
+        "description": "Text to be displayed when there are no absent students"
+    },
+    
+    "pageGradeSubmissionSupervisionButton": "Request missing grades({numberOfGrades})",
+    "@pageGradeSubmissionSupervisionButton": {
+        "description": "Represents the text for a button that is used to request missing grades. The {numberOfGrades} placeholder is used to dynamically indicate the number of missing grades.",
+        "placeholders" :{
+            "numberOfGrades" : {
+                "type": "int"
+            }
+        }
+    },
+
+    "absencePageTitleAppBar": "Absences",
+    "@absencePageTitleAppBar": {
+        "description": "Title of the absences page"
+    },
+    
+    "dialogAbsencesSentCorrectly": "absences sent correctly",
+    "@dialogAbsencesSentCorrectly": {
+        "description": "Text to be displayed in the title of the dialog when absences to sent correctly"
+    },
+
+    "dialogAttendanceOfDay": "Attendances of the day",
+    "@dialogAttendanceOfDay": {
+        "description": "Text to be displayed in the title of the dialog"
+    },
+
+     "dialogLogoutQuestion": "Are you sure you \nwant to logout?",
+    "@dialogLogoutQuestion": {
+        "description": "Text of the dialog that asks the user if he is sure he wants to logout"
+    },
+
+    "dialogAttendanceStateOfStudents": "with",
+    "@dialogAttendanceStateOfStudents": {
+        "description": "text in the dialog in the status of absent students"
+    },
+
+    "dialogSeeMore": "See more",
+    "@dialogSeeMore": {
+        "description": "text on a button to see less"
+    },
+
+    "dialogSeeLess": "See Less",
+    "@dialogSeeLess": {
+        "description": "text on a button to see more"
+    },
+
+    "drawerMyProfile": "My profile",
+    "@drawerMyProfile": {
+        "description": "Text of the button that indicates  that you will be redirected to profile page"
+    },
+
+      "drawerSettings":"Settings",
+    "@drawerSettings":{
+        "description":"Text of the button to indicate that you will be redirected to settings page"
+    },
+    
+    "drawerLogOut": "Log Out",
+    "@drawerLogOut":{
+        "description":"Text of the button in the logout item"
+    },
+    
+    "dialogErrorToSendGrades": "There was an error sending\ngrades. Try again.",
+    "@dialogErrorToSendGrades": {
+        "description": "Label indicating an error when sending notes."
+    },
+    
+    "dialogSuccessToSendGrades": "The grades were sent\nsuccessfully!",
+    "@dialogSuccessToSendGrades": {
+        "description": "Label indicating successful sending of grades."
+    },
+
+    "dropdownErrorMustCompleteField": "You must complete this field!",
+    "@dropdownErrorMustCompleteField": {
+        "description": "Error message displayed when a user is required to complete a dropdown field but hasn't selected any option."
+    },
+
+    "commonWelcome": "Welcome!",
+    "@commonWelcome": {
+        "description": "Welcoming text"
+    },
+
+    "commonDNI": "Identification number",
+    "@commonDNI": {
+        "description": "Hint text in textformfield to indicate that ID must be entered"
+    },
+
+    "commonMail": "Mail",
+    "@commonMail": {
+        "description": "Text to be displayed in common places"
+    },
+    
+    "commonLogIn": "Log in",
+    "@commonLogIn": {
+        "description": "Text on the button that indicates that its action is login"
+    },
+
+    "commonCompleteTheField": "Complete the field",
+    "@commonCompleteTheField": {
+        "description": "Text to be displayed in common places to indicate that the field must be completed"
+    },
+
+    "commonEnterAValidEmail": "Enter a valid email",
+    "@commonEnterAValidEmail": {
+        "description": "Text to indicate that the email is invalid"
+    },
+
+    "commonPassword": "Password",
+    "@commonPassword": {
+        "description": "Text to be displayed in common places to indicate password text"
+    },
+
+    "commonOnlyNumbers": "Only numbers",
+    "@commonOnlyNumbers": {
+        "description": "Text to indicate that only numbers are allowed"
+    },
+
+    "commonState": "State",
+    "@commonState": {
+        "description": "Label for the 'State' field or column in the interface"
+    },
+
+    "commonPresent": "Present",
+    "@commonPresent": {
+        "description": "Label indicating that the student is present"
+    },
+
+    "commonAbsent": "absent",
+    "@commonAbsent": {
+        "description": "Label indicating that the student is absent"
+    },
+
+    "commonHalfAbsence": "1/2 absence",
+    "@commonHalfAbsence": {
+        "description": "Label indicating that the student has half of the required attendance"
+    }, 
+    
+    "commonFourthMissing": "1/4 absence",
+    "@commonFourthMissing": {
+        "description": "Label indicating that the student has a quarter of the required attendance"
+    }, 
+    
+    "commonUndefined": "Undef.",
+    "@commonUndefined": {
+        "description": "Label indicating that the attendance status of the student is undefined or not specified"
+    },
+
+    "commonContinue": "Continue",
+    "@commonContinue": {
+        "description": "Label for a button or action indicating to proceed."
+    },
+
+    "commonApply": "Request",
+    "@commonRequest": {
+        "description": "Label for a button or action indicating to submit a request."
+    }
+,
+    "commonDialogError": "An error ocurred",
+    "@commonDialogError": {
+        "description": "Description of the alert dialog error, informing the user of an error."
+    },
+
+    "commonPhone": "Phone",
+    "@commonPhone": {
+        "description": "Label used to represent the phone field in personal data."
+    },
+
+    "commonBloodFactor": "Blood Factor",
+    "@commonBloodFactor": {
+        "description": "Label used to represent the blood factor field in personal data."
+    },
+
+    "commonAge": "Age",
+    "@commonAge": {
+        "description": "Label used to represent the age field in personal data."
+    },
+
+    "commonEmergencyContact": "Emergency contact",
+    "@commonEmergencyContact": {
+        "description": "Label used to represent the emergency contact field in personal data."
+    },
+
+    "commonBond": "Bond",
+    "@commonBond": {
+        "description": "Label used to represent the bond field in personal data."
+    },
+
+    "commonObservations": "Observations",
+    "@commonObservations": {
+        "description": "Label used to represent the observations field in personal data."
+    },
+
+    "commonNoData": "No data",
+    "@commonNoData": {
+        "description": "Message used to represent the absence of data in a field."
+    },
+
+    "commonContact": "Contact",
+    "@commonContact": {
+        "description": "Button or link used to initiate contact with the user."
+    },
+
+    "commonConfirm": "Confirm",
+    "@commonConfirm": {
+        "description": "Button or link used to confirm an action or decision."
+    },
+    
+    "commonFeatureNotAvailable":"This feature is\n not available in this version.",
+    "@commonFeatureNotAvailable":{
+        "descripcion": "Text in pop up to indicate that a feature in progress"
+    },
+
+    "commonDecline": "Decline",
+    "@commonDecline": {
+        "description": "Button or link used to decline or reject an action or decision."
+    },
+
+    "commonBack": "Back",
+    "@commonBack": {
+        "description": "Text in button to indicate the action back"
+    },
+
+    "commonCancel": "Cancel",
+    "@commonCancel": {
+        "description": ""
+    },
+
+    "commonSubject": "Subject",
+    "@commonSubject": {
+        "description": "It is commonly used to refer to a specific academic subject or course."
+    },
+
+    "commonCourse": "Course",
+    "@commonCourse": {
+        "description": "It is commonly used to refer to a specific academic course."
+    },
+
+    "commonCourses": "Courses",
+    "@commonCourses": {
+        "description": "It is commonly used to refer to various academic courses."
+    },
+    
+    "commonName": "Name",
+    "@commonName": {
+        "description": "Label indicating the name of something"
+    },
+    
+    "commonSearchWithDots": "Search...",
+    "@commonSearchWithDots": {
+        "description": "Label indicating to search"
+    },
+    
+    "commonRole": "Role",
+    "@commonRole": {
+        "description": "A singular function or position that a user can have in a system or application."
+    },
+    
+    "commonRoles": "Roles",
+    "@commonRoles": {
+        "description": "Multiple functions or positions that a user can have in a system or application."
+    },
+
+    "commonComission": "Comission",
+    "@commonComission": {
+        "description": "A singular commission, group, or task assigned to a user in an educational or work context."
+    },
+
+    "commonComissions": "Comissions",
+    "@commonComissions": {
+        "description": "Multiple commissions, groups, or tasks assigned to a user in an educational or work context."
+    },
+
+    "commonDeleteAll": "Delete All",
+    "@commonDeleteAll": {
+        "description": "Label indicating to delete all items"
+    },
+
+    "commonAcademicCommunity": "Academic community",
+    "@commonAcademicCommunity": {
+        "description": "Title of the section Academic community"
+    }
+}
